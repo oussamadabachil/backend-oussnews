@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {
-  res.render("users", { title: "Users" });
+  res.json("Saliut tout le monde")
 });
 
 router.post("/inscription", (req, res) => {
