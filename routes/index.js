@@ -6,7 +6,7 @@ const User = require("../models/users")
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Express v2 Espérons que ca marchr' });
 });
 
 
