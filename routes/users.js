@@ -1,7 +1,12 @@
 var express = require("express");
 var router = express.Router();
 
+
+
+
 /* GET users listing. */
+const User = require("../models/users")
+
 router.get("/", function (req, res, next) {
   res.json("Saliut tout le monde")
 });

@@ -1,19 +1,10 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 
-require("../models/connection")
-const User = require("../models/users")
+require("../models/connection");
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express v2 Espérons que ca marchr' });
+router.get("/", function (req, res, next) {
+  res.render("index", { title: "Express v2 Espérons que ca marchr" });
 });
-
-
-    
-
-
-
-
 
 module.exports = router;
